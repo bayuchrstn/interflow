@@ -1,0 +1,1221 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Interflow | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/bootstrap-submenu.css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="http://interflow.co.id/assets/css/leaflet.css" type="text/css">
+    <link rel="stylesheet" href="http://interflow.co.id/assets/css/map.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/jquery.mCustomScrollbar.css">
+    <link href="http://interflow.co.id/assets_admin/global_assets/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/dropzone.css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/slick.css">
+    <!-- End External CSS libraries -->
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/style.css?_=1466835601">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="http://interflow.co.id/assets/css/skins/default.css">
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/custom.css?v=616885997">
+    <!-- End Custom stylesheet -->
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="http://interflow.co.id/assets/img/logos/logowarna.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,300,700">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/ie10-viewport-bug-workaround.css">
+    <!-- <link rel="stylesheet" type="text/css" href="http://interflow.co.id/assets/css/jquery.mobile-1.4.5.min.css"> -->
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="http://interflow.co.id/assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- SLIDER HEADER -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+    <!-- TUTUP SLIDER HEADER -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body> <!--    ontouchmove="tes();"-->
+    <div class="page_loader"></div>
+
+    <!-- Top header start -->
+    <header class="top-header" id="top-header-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-9 col-sm-7">
+                    <div class="list-inline">
+                        <a href="javascript:;"><i class="fa fa-phone"></i>0895 602 532 888</a>
+                        <a href="javascript:;"><i class="fa fa-phone"></i>0247 641 0827</a>
+                        <a href="javascript:;"><i class="fa fa-envelope"></i>interflow.property@gmail.com</a>
+                        <a href="javascript:;"><i class="flaticon-pin"></i>JL. Lamper Tengah No.C-12A</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-5">
+                    <ul class="top-social-media pull-right">
+                        <li><a href="javascript:;"><i class="fa fa-user"></i></a></li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" href="#" class="link-right dropdown-toggle">Login Premium</a>
+                            <!-- <div class="dropdown-menu"> -->
+                            <ul class="dropdown-menu login_area form-wrapper" style="z-index:999999999;width: 180px;">
+                                <li>
+                                    <form id="login-form" class="form">
+                                        <p class="hint-text">Sign in</p>
+                                        <div class="form-group">
+                                            <input type="text" name="username" class="form-control" placeholder="Username" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password" class="form-control" placeholder="Password" required="required">
+                                        </div>
+                                        <div id="logerror" class="text-center"></div>
+                                        <button type="button" id="btn-login" class="btn btn-primary btn-block">Login</button>
+                                        <div class="form-footer">
+                                            <a class="forgot-toggle " data-toggle="modal" data-target="#modal-forgot" href="#">Forgot Your password?</a>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
+                            <!-- </div> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Top header end -->
+
+    <!-- Main header start -->
+    <header class="main-header fixed-header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand company-logo" href="http://interflow.co.id/">
+                    <img src="http://interflow.co.id/assets/img/logos/logowarna.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav header-ml">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active" href="http://interflow.co.id/" aria-haspopup="true" aria-expanded="false">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="http://interflow.co.id/Main/about_us" aria-haspopup="true" aria-expanded="false">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="http://interflow.co.id/Main/list_property" aria-haspopup="true" aria-expanded="false">
+                                Property
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="http://interflow.co.id/Main/developer" aria-haspopup="true" aria-expanded="false">
+                                Developer
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="http://interflow.co.id/Main/service_loan" aria-haspopup="true" aria-expanded="false">
+                                Loan Service
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="http://interflow.co.id/Main/consultant" aria-haspopup="true" aria-expanded="false">
+                                Consultant
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="http://interflow.co.id/Main/news" aria-haspopup="true" aria-expanded="false">
+                                News
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="http://interflow.co.id/Main/gallery" aria-haspopup="true" aria-expanded="false">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="http://interflow.co.id/Main/karir_front" aria-haspopup="true" aria-expanded="false">
+                                Career
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="http://interflow.co.id/Main/faq" aria-haspopup="true" aria-expanded="false">
+                                FAQ
+                            </a>
+                        </li>
+                    </ul>
+                    <ul id="login" class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" data-toggle="modal" data-target="#modal-login">
+                                <i class="flaticon-logout"></i>Sign In
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="http://interflow.co.id/Main/contact_us" class="nav-link link-color-new">
+                                <img src="http://interflow.co.id//assets/img/button.png" class="img-first" style="width: 160px;height:38px">
+                                <img src="http://interflow.co.id//assets/img/button2.png" class="img-top" style="width: 160px;height:38px">
+                            </a>
+                            <!-- <a href="http://interflow.co.id/Main/contact_us" class="nav-link link-color">LIST YOUR PROPERTY
+                                HERE</a> -->
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    
+
+    <!-- Main header end --><!-- Banner start -->
+        <div class="banner" id="banner">
+        
+
+      
+
+        <!-- <div id="bannerCarousole" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner banner-slider-inner text-left"><div class="carousel-item banner-max-height active">
+                            <img  class="d-block w-100 h-100" src="http://interflow.co.id/assets/img/slider/slide_41.jpg" alt="banner">
+                        </div><div class="carousel-item banner-max-height ">
+                            <img  class="d-block w-100 h-100" src="http://interflow.co.id/assets/img/slider/slide_1.jpg" alt="banner">
+                        </div><div class="carousel-item banner-max-height ">
+                            <img  class="d-block w-100 h-100" src="http://interflow.co.id/assets/img/slider/slide_2.jpg" alt="banner">
+                        </div><div class="carousel-item banner-max-height ">
+                            <img  class="d-block w-100 h-100" src="http://www.interflow.co.id/assets/img/slider/slide_3.jpg" alt="banner">
+                        </div><div class="carousel-item banner-max-height ">
+                            <img  class="d-block w-100 h-100" src="http://www.interflow.co.id/assets/img/slider/slide.jpg" alt="banner">
+                        </div></div>
+    </div> -->
+        <div id="bannerCarousole"  style="padding-top:106px;" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <!-- <div id="demo" class="carousel slide" data-ride="carousel"> -->
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#bannerCarousole" data-slide-to="0" class="active"></li>
+                <li data-target="#bannerCarousole" data-slide-to="1"></li>
+                <li data-target="#bannerCarousole" data-slide-to="2"></li>
+                <li data-target="#bannerCarousole" data-slide-to="3"></li>
+                <li data-target="#bannerCarousole" data-slide-to="4"></li>
+            </ul>
+            <div class="carousel-inner banner-slider-inner text-left"><div class="carousel-item banner-max-height active">
+                            <img  class="d-block w-100 h-100" src="http://interflow.co.id/assets/img/slider/slide_41.jpg" alt="banner">
+                        </div><div class="carousel-item banner-max-height ">
+                            <img  class="d-block w-100 h-100" src="http://interflow.co.id/assets/img/slider/slide_1.jpg" alt="banner">
+                        </div><div class="carousel-item banner-max-height ">
+                            <img  class="d-block w-100 h-100" src="http://interflow.co.id/assets/img/slider/slide_2.jpg" alt="banner">
+                        </div><div class="carousel-item banner-max-height ">
+                            <img  class="d-block w-100 h-100" src="http://www.interflow.co.id/assets/img/slider/slide_3.jpg" alt="banner">
+                        </div><div class="carousel-item banner-max-height ">
+                            <img  class="d-block w-100 h-100" src="http://www.interflow.co.id/assets/img/slider/slide.jpg" alt="banner">
+                        </div></div>
+            <!-- Left and right controls -->
+            <!-- <a class="carousel-control-prev" href="#bannerCarousole" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#bannerCarousole" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a> -->
+            <a class="carousel-control-prev none-580" href="#bannerCarousole" role="button" data-slide="prev">
+                <span class="slider-mover-left" aria-hidden="true">
+                    <i class="fa fa-angle-left"></i>
+                </span>
+            </a>
+            <a class="carousel-control-next none-580" href="#bannerCarousole" role="button" data-slide="next">
+                <span class="slider-mover-right" aria-hidden="true">
+                    <i class="fa fa-angle-right"></i>
+                </span>
+            </a>
+            <!-- </div> -->
+        </div>
+
+
+        <!-- About Us start -->
+        <div class="container-fluid about-us">
+            <div class="row">
+                <div class="col-md-6" style="padding:0">
+
+                    <div class="video-wrap" style="padding-top:0px;">
+                        <div id="bannerVideo"class="video carousel slide" data-ride="carousel">
+                            <img class="ratio" src="http://placehold.it/16x9" />
+                            <iframe src="https://www.youtube.com/embed/OAn8PloNqKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- width="100%" height="500" -->
+                            <!-- <script> alert(document.querySelector("#description > yt-formatted-string").innerText); </script> -->
+                        </div>
+                    </div>
+            
+                    
+                    <!-- <img class="img-responsive" src="http://interflow.co.id/assets/img/TAMPILANGEDUNGDEPAN1.jpg" alt="img-interflow"> -->
+                </div>
+                <div class="col-md-6"> <!-- background-color:#F08519; -->
+                    <div class="tab-box">
+                        <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item col-md-6 col-sm-6 col-6 text-center no-padd">
+                                <a class="nav-link active show" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false">About Us</a>
+                            </li>
+                            <li class="nav-item col-md-6 col-sm-6 col-6 text-center no-padd">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Why Choose Us</a>
+                            </li>
+                        </ul> -->
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade active show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <h2>Keterangan Event</h2> <br>
+                                <p style="color: black;">
+                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                    <br> <br> Interflow Property adalah kantor brokerage property yang menjembatani antara penjual dan pembeli property untuk mendapatkan rasa nyaman dan aman dalam bertransaksi, Interflow mewadahi bagi semua orang yang ingin berkarir di dunia property karena di Interflow anda akan mendapatkan profit dan benefit yang terbaik dari semua kantor broker property yang ada.   
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <div class="widget why-choose-u">
+                                    
+								<div class="media mb-4">
+									<a class="pr-3" href="javascript">
+										<img class="media-object" src="">
+									</a>
+									<div class="media-body align-self-center">
+										<h5><a href="javascript:;">AMAN</a></h5>
+										<p>Properti - properti yang kami pasarkan melalui Interflow telah melewati pengecekan dan telah dipastikan kondisi sertifikat memiliki legalitas yang secure / aman. Sehingga Bapak Ibu Investor Properti tidak perlu khawatir apabila berinvestasi properti melalui Interflow Property.</p>
+									</div>
+								</div>
+								
+								<div class="media mb-4">
+									<a class="pr-3" href="javascript">
+										<img class="media-object" src="">
+									</a>
+									<div class="media-body align-self-center">
+										<h5><a href="javascript:;">NYAMAN</a></h5>
+										<p>Interflow Property mempunyai beberapa pilihan properti - properti yang dipasarkan, baik rumah, ruko, tanah, building, serta gudang sehingga Bapak Ibu Investor Properti tinggal menyampaikan kepada kami selaku Property Consultant untuk mencarikan lokasi lokasi properti yang dibutuhkan sesuai dengan kebutuhan Bapak Ibu. Dan pada saat Bapak ibu melakukan kunjungan survey ke lokasi, bisa sekalian meninjau tanpa perlu berganti dengan Property Consultant lainnya. Hal ini bisa dilakukan karena data base dari Interflow Property sangat banyak dan didukung dengan Property Consultant yang handal dan telah dibekali ilmu dan pengetahuan dari Kantor Interflow Property</p>
+									</div>
+								</div>
+								
+								<div class="media mb-4">
+									<a class="pr-3" href="javascript">
+										<img class="media-object" src="">
+									</a>
+									<div class="media-body align-self-center">
+										<h5><a href="javascript:;"> MENGUNTUNGKAN</a></h5>
+										<p>Bapak Ibu Investor, dengan kemampuan Interflow Property Consultant yang telah berpengalaman, kami mempunyai properti - properti yang dipasarkan, dimana  sangat menguntungkan bagi Bpk Ibu Investor. Karena kami pasti akan memberikan update informasi lokasi properti - properti yang dipasarkan, dimana pihak Pemiliknya merupakan " Motivated Seller " dan juga lokasi tersebut memang mempunyai Nilai Plus, serta dari sisi harga pemasaran Masih Terjangkau, bahkan cenderung Di Bawah Harga Pasar..</p>
+									</div>
+								</div>
+								
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Us end -->
+
+
+        </div>
+        <!-- Banner end -->
+
+        <!-- Search area 3 start -->
+        <div class="search-content content-area-0">
+            <div class="container">
+                <!-- Main title -->
+                <div class="main-title">
+                    <h1 class="text-white">Searching Your Property</h1>
+                </div>
+                <form method="GET" action="http://interflow.co.id/Main/list_property">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 form-group">
+                            <input type="text" name="address" id="address" class="form-control" placeholder="Enter Address, City or State">
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 form-group">
+                            <select name="status" id="status" class="form-control">
+<option value="" selected="selected"> All Status </option>
+<option value="2">Rent</option>
+<option value="4">Rented</option>
+<option value="1">Sell</option>
+<option value="5">Sell / Rent</option>
+<option value="3">Sold</option>
+</select>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 form-group">
+                            <select name="type" id="type" class="form-control">
+<option value="" selected="selected"> All Type </option>
+<option value="5">Apartement</option>
+<option value="9">Etc.</option>
+<option value="4">Garages</option>
+<option value="8">Hotel</option>
+<option value="1">House</option>
+<option value="3">Lands</option>
+<option value="2">Office</option>
+<option value="6">Shophouse</option>
+<option value="7">Warehouse</option>
+</select>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 form-group">
+                        <label style="color:white">MIN</label>
+                        <input id="minval" type="text" name="min_price"  class="form-control text-right" value="0"/>
+                            <!-- <div class="range-slider"> -->
+                                <!-- <div data-min="0" data-max="55000000000"  data-min-name="min_price" data-max-name="max_price" data-unit="Rp" class="range-slider-ui ui-slider text-white" aria-disabled="false"></div> -->
+                                <!-- <div data-min="0" data-max="500000000000" data-min-name="min_price" data-max-name="max_price" data-unit="Rp" class="range-slider-ui ui-slider text-white" aria-disabled="false"></div>
+                                <div class="clearfix"></div>
+                            </div> -->
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 form-group">
+                        <label style="color:white">MAX</label>
+                        <input id="maxval" type="text" name="max_price"  class="form-control text-right" value="500000000000" />
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 form-group">
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 form-group">
+                        <label></label>
+                            <button type="submit" class="btn btn-primary btn-block btn-circle"> Search</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- <div class="row">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 form-group">
+                <div id="option-accor" class="accordion">
+                    <div class="">
+                        <a class="checkbox_collapse text-white small collapsed" aria-expanded="false" data-toggle="collapse" data-parent="#option-accor" href="#collapse1">
+                            More Option
+                        </a>
+                    </div>
+                    <div id="collapse1" class=" collapse">
+                        cxcxz
+                    </div>
+                </div>                
+            </div>
+        </div> -->
+            </div>
+        </div>
+        <!-- Search area 3 end -->
+
+        <!-- Featured Properties start -->
+        <div class="featured-properties content-area-0">
+            <div class="container">
+                <!-- Main title -->
+                <div class="main-title">
+                    <!-- <h1>HOT PROPERTY</h1> -->
+                    <h1>STAR PROPERTY</h1>
+                </div>
+                <div class="slick-slider-area">
+                    <div id="slider_hot_property" class="row slick-carousel">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="http://interflow.co.id/Main/list_property" class="btn btn-primary btn-circle btn-more">View More Properties</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Featured Properties end -->
+
+        <!-- About Us start -->
+        <div class="container-fluid about-us">
+            <div class="row">
+                <div class="col-md-6" style="padding:0">
+                    <img class="img-responsive" src="http://interflow.co.id/assets/img/TAMPILANGEDUNGDEPAN1.jpg" alt="img-interflow">
+                </div>
+                <div class="col-md-6" style="padding:0;background-color:#F08519;">
+                    <div class="tab-box">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item col-md-6 col-sm-6 col-6 text-center no-padd">
+                                <a class="nav-link active show" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false">About Us</a>
+                            </li>
+                            <li class="nav-item col-md-6 col-sm-6 col-6 text-center no-padd">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Why Choose Us</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade active show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <p>
+                                    <!-- Interflow Property merupakan suatu wadah komunitas dimana kami selaku kantor property agent tepatnya beberapa principle kantor property agent merasa bahwa kami harus melindungi semua pihak baik buyer / investor  maupun kami selaku marketing pemasaran property. -->
+                                    Interflow Property adalah kantor brokerage property yang menjembatani antara penjual dan pembeli property untuk mendapatkan rasa nyaman dan aman dalam bertransaksi, Interflow mewadahi bagi semua orang yang ingin berkarir di dunia property karena di Interflow anda akan mendapatkan profit dan benefit yang terbaik dari semua kantor broker property yang ada. Interflow property berfokus memberikan yang terbaik untuk para property consultant, investor, mitra developer, dan mitra perbankan.                                    <br> <br>
+                                    Nomor SIUP : <b>154.SIU-P4.1119</b>
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <div class="widget why-choose-u">
+                                    
+								<div class="media mb-4">
+									<a class="pr-3" href="javascript">
+										<img class="media-object" src="">
+									</a>
+									<div class="media-body align-self-center">
+										<h5><a href="javascript:;">AMAN</a></h5>
+										<p>Properti - properti yang kami pasarkan melalui Interflow telah melewati pengecekan dan telah dipastikan kondisi sertifikat memiliki legalitas yang secure / aman. Sehingga Bapak Ibu Investor Properti tidak perlu khawatir apabila berinvestasi properti melalui Interflow Property.</p>
+									</div>
+								</div>
+								
+								<div class="media mb-4">
+									<a class="pr-3" href="javascript">
+										<img class="media-object" src="">
+									</a>
+									<div class="media-body align-self-center">
+										<h5><a href="javascript:;">NYAMAN</a></h5>
+										<p>Interflow Property mempunyai beberapa pilihan properti - properti yang dipasarkan, baik rumah, ruko, tanah, building, serta gudang sehingga Bapak Ibu Investor Properti tinggal menyampaikan kepada kami selaku Property Consultant untuk mencarikan lokasi lokasi properti yang dibutuhkan sesuai dengan kebutuhan Bapak Ibu. Dan pada saat Bapak ibu melakukan kunjungan survey ke lokasi, bisa sekalian meninjau tanpa perlu berganti dengan Property Consultant lainnya. Hal ini bisa dilakukan karena data base dari Interflow Property sangat banyak dan didukung dengan Property Consultant yang handal dan telah dibekali ilmu dan pengetahuan dari Kantor Interflow Property</p>
+									</div>
+								</div>
+								
+								<div class="media mb-4">
+									<a class="pr-3" href="javascript">
+										<img class="media-object" src="">
+									</a>
+									<div class="media-body align-self-center">
+										<h5><a href="javascript:;"> MENGUNTUNGKAN</a></h5>
+										<p>Bapak Ibu Investor, dengan kemampuan Interflow Property Consultant yang telah berpengalaman, kami mempunyai properti - properti yang dipasarkan, dimana  sangat menguntungkan bagi Bpk Ibu Investor. Karena kami pasti akan memberikan update informasi lokasi properti - properti yang dipasarkan, dimana pihak Pemiliknya merupakan " Motivated Seller " dan juga lokasi tersebut memang mempunyai Nilai Plus, serta dari sisi harga pemasaran Masih Terjangkau, bahkan cenderung Di Bawah Harga Pasar..</p>
+									</div>
+								</div>
+								
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Us end -->
+
+        <!-- Own start -->
+        <div class="own">
+            <div class="content-own">
+                <img class="img-responsive" src="http://interflow.co.id/assets/img/have-some-for-sale.jpg" alt="img-own">
+                <div class="own-title">
+                    <div class="text-center">
+                        <h2 class="text-white">Have Some Property For Sale ?</h2>
+                    </div>
+                    <div class="text-center">
+                        <a href="http://interflow.co.id/Main/contact_us" class="btn btn-primary btn-circle btn-more">Submit Your Own</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Own Us end -->
+
+        <!-- Our team start -->
+        <div class="our-team content-area-0">
+            <div class="container">
+                <!-- Main title -->
+                <div class="main-title">
+                    <h1>Meet Our Property Consultant</h1>
+                </div>
+                <div class="slick-slider-area">
+                    <div id="slider_consultant" class="row slick-carousel">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="http://interflow.co.id/Main/consultant" class="btn btn-primary btn-circle btn-more">View More Property Consultant</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our team end -->
+
+        <!-- Testimonial start -->
+        <div class="testimonial content-area-0">
+            <hr>
+            <div class="container">
+                <!-- Main title -->
+                <div class="main-title">
+                    <h1>What Our Clients Say</h1>
+                </div>
+                <!-- Slick slider area start -->
+                <div class="slick-slider-area">
+                    <div id="slider_testimoni" class="row slick-carousel">
+                        <div class="slick-slide-item">
+                        <div class="testimonial-inner">
+                            <div class="text-box">
+                                <div class="user">
+                                    <div class="photo">
+                                        <img class="media-object" src="http://interflow.co.id/assets/img/testimoni/testimoni3.png" alt="user">
+                                    </div>
+                                    <div class="detail">
+                                        <h5>Freddy Mercury</h5>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <h5 class="bold">Amazing Home</h5>
+                                    <p>Nice property as usual. <br />
+Thanks...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="slick-slide-item">
+                        <div class="testimonial-inner">
+                            <div class="text-box">
+                                <div class="user">
+                                    <div class="photo">
+                                        <img class="media-object" src="http://interflow.co.id/assets/img/testimoni/testimoni1.png" alt="user">
+                                    </div>
+                                    <div class="detail">
+                                        <h5>John Flaca</h5>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <h5 class="bold">Good</h5>
+                                    <p>Good service by Interflow agents. <br />
+I like it.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="slick-slide-item">
+                        <div class="testimonial-inner">
+                            <div class="text-box">
+                                <div class="user">
+                                    <div class="photo">
+                                        <img class="media-object" src="http://interflow.co.id/assets/img/testimoni/testimoni2.png" alt="user">
+                                    </div>
+                                    <div class="detail">
+                                        <h5>Maikel Alisa</h5>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <h5 class="bold">Amazing Home</h5>
+                                    <p>Nice property as usual. <br />
+Thanks...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="partners">
+                    <div class="slick-slider-area">
+                        <div id="slider_partner" class="row slick-carousel">
+
+                        </div>
+                    </div>
+                    <!-- <div class="partners-img">
+                <img class="img-responsive" src="assets/img/partner/logo-01.png" alt="Partner">
+            </div>
+            <div class="partners-img text-center">
+                <img width="40%" src="assets/img/partner/logo-02.png" alt="Partner">
+            </div>
+            <div class="partners-img text-center">
+                <img width="70%" src="assets/img/partner/logo-03.png" alt="Partner">
+            </div>
+            <div class="partners-img text-center">
+                <img width="70%" src="assets/img/partner/logo-04.png" alt="Partner">
+            </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial end -->
+
+        <!-- Blog section start -->
+        <div class="blog-section bg-grea-3 content-area-0">
+            <div class="container">
+                <!-- Main title -->
+                <div class="main-title">
+                    <h1>News</h1>
+                </div>
+                <div class="slick-slider-area">
+                    <div id="slider_news" class="row slick-carousel">
+
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="http://interflow.co.id/Main/news" class="btn btn-primary btn-circle btn-more">View More News</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog section end -->
+
+        <!-- Google map start -->
+        <div class="section">
+            <div class="map">
+                <div id="map" class="contact-map"></div>
+            </div>
+        </div>
+        <!-- Google map end -->
+
+        <!-- Iklan -->
+        <a id="arebia" href="javascript:;" style="position: fixed; z-index: 21474836;"><img src="http://interflow.co.id//assets/img/logo-arebi.png" style="width:75px;height:75px"></a><!-- Footer start -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="footer-item clearfix">
+                    <img src="http://interflow.co.id/assets/img/logos/logoputih.png" alt="logo" class="f-logo">
+                    <ul class="contact-info">
+                        <li>
+                            <i class="flaticon-pin"></i> JL. Lamper tengah raya c-12A, Kota Semarang                            <!-- JL. Lamper Tengah No.C-12A -->
+                        </li>
+                        <li>
+                            <i class="flaticon-mail"></i>
+                            <a href="mailto:interflow.property@gmail.com">
+                                <!-- interflow.property@gmail.com -->
+                                <!-- target="_blank" rel="noopener noreferrer" -->
+                                interflow.property@gmail.com                                <!-- interflow.property@gmail.com -->
+                            </a>
+                            <!-- sales@hotelempire.com -->
+                        </li>
+                        <li>
+                            <i class="flaticon-phone"></i>
+                            <a href="tel:0895 6025 32888 /
+024 - 76410827">
+                                <!-- 0895 602 532 888 -->
+                                0895 6025 32888 /
+024 - 76410827                                <!-- 0895 602 532 888 -->
+                            </a>
+                            <!-- +55-417-634-7071 -->
+                        </li>
+                        <li>
+                            <i class="fa fa-facebook"></i>
+                            <a href="https://www.facebook.com/interflow.property.1" target="__blank">Facebook</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-instagram"></i>
+                            <a href="https://www.instagram.com/interflowproperty_" target="__blank">Instagram</a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                <div class="footer-item">
+                    <h4>
+                        Useful Links
+                    </h4>
+                    <ul class="links">
+                        <li>
+                            <a href="http://interflow.co.id/">Home</a>
+                        </li>
+                        <li>
+                            <a href="http://interflow.co.id/Main/about_us">About Us</a>
+                        </li>
+                        <li>
+                            <a href="http://interflow.co.id/Main/list_property">Property</a>
+                        </li>
+                        <li>
+                            <a href="http://interflow.co.id/Main/developer">Developer</a>
+                        </li>
+                        <li>
+                            <a href="http://interflow.co.id/Main/service_loan">Loan Service</a>
+                        </li>
+                        <li>
+                            <a href="http://interflow.co.id/Main/consultant">Consultant</a>
+                        </li>
+                        <li>
+                            <a href="http://interflow.co.id/Main/news">News</a>
+                        </li>
+                        <li>
+                            <a href="http://interflow.co.id/Main/gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="http://interflow.co.id/Main/faq">Faq</a>
+                        </li>
+                        <li>
+                            <a href="http://interflow.co.id/Main/contact_us">Add Property</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
+                <div class="recent-properties footer-item">
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-item clearfix">
+                    <h4>Subscribe</h4>
+                    <div class="Subscribe-box">
+                        <p>Ikuti update seputar informasi tentang properti dengan berlanggan menggunakan email.</p>
+                        <form id="form-email-subs" class="form-inline">
+                            <!-- GET -->
+                            <input type="email" id="email_subs" name="email_subs" class="form-control mb-sm-0" id="inlineFormInputName3" placeholder="Email Address" autocomplete="off" required>
+                            <button type="button" id="btn-subs" class="btn btn-primary"><i class="fa fa-paper-plane"></i></button> <!-- onclick="alert('Coming Soon')" -->
+                        </form>
+                        <div id="subs_alert_notif" style="color: #ffffff; font-size: 15px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-12 col-lg-12">
+                <p class="copy sub-footer">© 2020 Interflow</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+<!-- Full Page Search -->
+<div id="full-page-search">
+    <button type="button" class="close">×</button>
+    <form action="index.html#">
+        <input type="search" value="" placeholder="type keyword(s) here" />
+        <button type="submit" class="btn btn-sm button-theme">Search</button>
+    </form>
+</div>
+<!-- Modal Login-->
+<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="margin-bottom:30px">
+                <div class="col-md-12 col-12">
+                    <div class="panel panel-login">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-md-6 col-6">
+                                    <a href="#" class="active" id="login-form-link">Login</a>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <a href="#" id="register-form-link">Forgot Password</a>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-12">
+                                    <form id="login-form2">
+                                        <div class="form-group">
+                                            <input type="text" name="username" tabindex="1" class="form-control" placeholder="Username" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password" tabindex="2" class="form-control" placeholder="Password" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <div id="logerror2" class="text-center"></div>
+                                            <div class="row" style="justify-content:center">
+                                                <div class="col-md-6 col-6">
+                                                    <button type="button" id="btn-login2" class="form-control btn btn-login">Log In</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <form id="register-form" style="display: none;">
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12 col-12">
+                                                <div class="text-center">
+                                                    <button type="button" id="forgot-submit" class="form-control btn btn-register">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Forgot-->
+<div class="modal fade" id="modal-forgot" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="margin-bottom:30px">
+                <div class="col-md-12 col-12">
+                    <div class="panel panel-login">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-md-12 col-12">
+                                    <a href="#" id="register-form-link">Forgot Password</a>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-12">
+                                    <form id="register-form" style="display: block;">
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12 col-12">
+                                                <div class="text-center">
+                                                    <button type="button" id="forgot-submit" class="form-control btn btn-register">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://interflow.co.id/assets/js/jquery-2.2.0.min.js"></script>
+<script src="http://interflow.co.id/assets/js/popper.min.js"></script>
+<script src="http://interflow.co.id/assets/js/bootstrap.min.js"></script>
+<script src="http://interflow.co.id/assets/js/bootstrap-submenu.js"></script>
+<script src="http://interflow.co.id/assets/js/rangeslider.js"></script>
+<script src="http://interflow.co.id/assets/js/jquery.mb.YTPlayer.js"></script>
+<script src="http://interflow.co.id/assets/js/bootstrap-select.min.js"></script>
+<script src="http://interflow.co.id/assets/js/jquery.easing.1.3.js"></script>
+<script src="http://interflow.co.id/assets/js/jquery.scrollUp.js"></script>
+<script src="http://interflow.co.id/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="http://interflow.co.id/assets_admin/global_assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="http://interflow.co.id/assets/js/leaflet.js"></script>
+<script src="http://interflow.co.id/assets/js/leaflet-providers.js"></script>
+<script src="http://interflow.co.id/assets/js/leaflet.markercluster.js"></script>
+<script src="http://interflow.co.id/assets/js/dropzone.js"></script>
+<script src="http://interflow.co.id/assets/js/slick.min.js"></script>
+<script src="http://interflow.co.id/assets_admin/global_assets/js/plugins/pickers/daterangepicker.js"></script>
+<script src="http://interflow.co.id/assets/js/lazyload/lazyload.min.js"></script>
+<script src="http://interflow.co.id/assets/js/jquery.filterizr.js"></script>
+<script src="http://interflow.co.id/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="http://interflow.co.id/assets/js/jquery.countdown.js"></script>
+<script src="http://interflow.co.id/assets/js/jquery.elevatezoom.js"></script>
+<script src="http://interflow.co.id/assets_admin/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+<script src="http://interflow.co.id/assets/js/numeral.min.js"></script>
+<script src="http://interflow.co.id/assets/js/mortgage.js"></script>
+<script src="http://interflow.co.id/assets/js/maps.js"></script>
+<script src="http://interflow.co.id/assets/js/plugins.js"></script>
+<!-- <script src="http://interflow.co.id/assets/js/swiper.jquery.min.js"></script> -->
+<script src="http://interflow.co.id/assets/js/app.js"></script>
+<script src="http://interflow.co.id/assets/plugins/bootbox/bootbox.min.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://interflow.co.id/assets/js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+<script src="http://interflow.co.id/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+    let base_url = 'http://interflow.co.id/';
+</script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM4nQXqt2vURkV97krRFVXzOWMTcA3Mvg"></script>
+<script src="http://interflow.co.id/assets/app/js/front/home.js?v=1325777951"></script>
+</body>
+<script>
+    $(".date-picker").datepicker({
+        autoclose: !0,
+        todayHighlight: true
+    });
+    $(document).ready(function() {
+        var zoomConfig = {
+            tint: true,
+            tintColour: '#F90',
+            tintOpacity: 0.5
+        }
+        // var slickImage = $('.slick-image'); 
+        var zoomImage = $('#img-show-slide');
+        $('.slider').slick({
+            dots: false,
+            vertical: true,
+            slidesToShow: 5
+        });
+        zoomImage.elevateZoom(zoomConfig);
+        $('.carousel-inner').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            image: {
+                cursor: null,
+                titleSrc: 'title'
+            },
+            gallery: {
+                enabled: true,
+                preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+                navigateByImgClick: true
+            }
+        });
+    });
+    $(document).ready(function() {
+        var counters = $(".count");
+        var countersQuantity = counters.length;
+        var counter = [];
+        for (i = 0; i < countersQuantity; i++) {
+            counter[i] = parseInt(counters[i].innerHTML);
+        }
+        var count = function(start, value, id) {
+            var localStart = start;
+            setInterval(function() {
+                if (localStart < value) {
+                    localStart++;
+                    counters[id].innerHTML = localStart;
+                }
+            }, 40);
+        }
+        for (j = 0; j < countersQuantity; j++) {
+            count(0, counter[j], j);
+        }
+        $.ajax({
+            url: base_url + "Main/ajax_recent_property",
+            type: "GET",
+            dataType: "JSON",
+            success: function(data) {
+                let html = '<h4>Recent Properties</h4>';
+                for (let i = 0; i < data.length; i++) {
+                    prop = data[i];
+                    status_property = prop.status_property;
+                    harga_jual = prop.harga_jual;
+                    harga_sewa = prop.harga_sewa;
+                    if (status_property == "1" || status_property == "3") { // Jual: Sell / Sold
+                        harga = harga_jual;
+                    } else if (status_property == "2" || status_property == "4") { // Sewa: Rent / Rented
+                        harga = harga_sewa;
+                    } else if (status_property == "5") { // Bisa Jual, bisa Sewa: Sell / Rent  
+                        harga = harga_jual + ' ...';
+                    } else {
+                        harga = harga_jual;
+                    }
+                    html += '<div class="media mb-4"><a class="pr-3" href="' + base_url + 'Main/detail_property?q=' + prop.id + '"><img class="media-object" src="' + prop.image + '" alt="small-properties"></a><div class="media-body align-self-center"><h5><a href="' + base_url + 'Main/detail_property?q=' + prop.id + '">' + prop.nama + '</a></h5><div class="listing-post-meta"><a href="javascript:;"><i class="fa fa-calendar"></i> ' + prop.tanggal + ' </a> | Rp ' + harga + ' jt</div></div></div>';
+                }
+                $(".recent-properties").html(html);
+            },
+            error: function(err) {
+                console.log(err);
+            }
+        });
+        var myEle = document.getElementById("current_max");
+        if (myEle) {} else {
+            $('.max-value').html('Rp 500 M');
+        }
+        // if( $('.range-slider-ui').find('.ui-state-default.1').css()$('.current-max').val() == '500.000.000.000'){
+        //     $('.max-value').html('Rp 500 M');
+        // }
+    });
+    $(function() {
+        $('#login-form-link').click(function(e) {
+            $("#login-form2").delay(100).fadeIn(100);
+            $("#register-form").fadeOut(100);
+            $('#register-form-link').removeClass('active');
+            $(this).addClass('active');
+            e.preventDefault();
+        });
+        $('#register-form-link').click(function(e) {
+            $("#register-form").delay(100).fadeIn(100);
+            $("#login-form2").fadeOut(100);
+            $('#login-form-link').removeClass('active');
+            $(this).addClass('active');
+            e.preventDefault();
+        });
+    });
+    var header = document.getElementById("top-header-2");
+    var sticky = header.offsetTop;
+    window.onscroll = function() {
+        if (window.pageYOffset > sticky) {
+            $("#top-header-2").addClass("fixed-top").animate("slow");
+        } else {
+            $("#top-header-2").animate("slow").removeClass("fixed-top");
+        }
+    };
+
+    $("#btn-subs").click(function() {
+        $.ajax({
+            url: base_url + "Main/ajax_subscribe_email",
+            type: "POST",
+            data: $("#form-email-subs").serialize(),
+            dataType: "JSON",
+            beforeSend: function() {
+                $('#btn-subs').html("<i class='fa fa-lg fa-refresh fa-spin'></i>").attr('disabled', true);
+            },
+            complete: function() {
+                $('#btn-subs').html("<i class='fa fa-paper-plane'></i>").attr('disabled', false);
+            },
+            success: function(data) {
+                if (data.status == true) {
+                    $("#subs_alert_notif").html(data.message);
+                    $('#email_subs').val('');
+                } else {
+                    $("#subs_alert_notif").html(data.message);
+                }
+            },
+            error: function(err) {
+                console.log(err);
+            }
+        });
+    });
+</script>
+
+<script type="text/javascript" id="ct_code_block_js_2">
+/* (function($) { */
+	var window = $(window);
+	var videoWrap = $('.video-wrap');
+	var video = $('.video');
+	var videoHeight = video.outerHeight();
+    var arebia = $('#arebia');
+    
+/**
+ * jQuery.browser.mobile (http://detectmobilebrowser.com/)
+ *
+ * jQuery.browser.mobile will be true if the browser is a mobile device
+ *
+ **/
+
+/* window.isMobile = function(){
+    let check = false; */
+    (function (a) {
+    (jQuery.browser = jQuery.browser || {}).mobile = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))
+    
+// alert(jQuery.browser.mobile);
+
+})(navigator.userAgent || navigator.vendor || window.opera);
+
+// }
+
+    function isMobile() {
+
+        // alert(jQuery.browser.mobile);
+
+        
+        if (jQuery.browser.mobile == true) {
+            return true; 
+        } else {
+            return false;
+        }
+    
+
+
+    } // tes();
+
+
+
+
+    
+    // return false;
+
+
+    $(window).scroll(function () { 
+        
+	// $(window).on('scroll',  function() {
+
+
+		var windowScrollTop = $(window).scrollTop();
+        var windowHeight = $(window).height();
+		var videoBottom = videoHeight + videoWrap.offset().top;
+		
+       if (windowScrollTop > videoBottom) { //  + $('#bannerCarousole').height() + windowHeight
+
+            if (isMobile() == false) {
+                videoWrap.height(windowHeight); // videoHeight
+                video.addClass('stuck');
+                arebia.addClass('stuck');
+
+            } else {
+                videoWrap.height('auto');
+                video.removeClass('stuck');
+                arebia.removeClass('stuck');
+                    // isMobile();
+                
+
+            }
+
+           
+
+ /* $(window).on('touchstart',function(){ 
+    // window.addEventListener('touchstart',function(){ 
+
+tes();
+
+
+        // return true;
+    }); */
+
+           
+                
+            
+		} else {
+			videoWrap.height('auto');
+			video.removeClass('stuck');
+			arebia.removeClass('stuck');
+		}
+	});
+/* }(jQuery)); */
+
+</script>
+
+<style type="text/css" id="ct_code_block_css_2">
+
+    @keyframes fade-in-up {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+
+    .video {
+        position: relative;
+    }
+
+    .video .ratio {
+        display:block;
+        width:100%;
+        height:auto;       
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* max-width: 100%;
+        max-height: 100%; */
+    }
+
+    .video.stuck {
+        position: fixed;
+        /* top: 160px; */
+        bottom: 20px;
+        /* left: 20px; */
+        right: 20px;
+        width: 260px;
+        height: 145px;
+        transform: translateY(100%);
+        animation: fade-in-up 0.75s ease forwards;
+        z-index: 1;
+    }
+
+
+    #arebia.stuck {
+        position: fixed;
+        bottom: 180px;
+        transform: translateY(100%);
+        animation: fade-in-up 0.50s ease forwards;
+        z-index: 1;
+    }
+    
+    
+ </style>
+</html>
